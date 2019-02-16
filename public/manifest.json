@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Unit Testing",
+  "name": "Talk Unit Testing",
   "icons": [
     {
       "src": "favicon.ico",
