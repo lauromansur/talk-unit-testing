@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`EmailForm renders component tree correctly (with enzyme) 1`] = `
+exports[`EmailForm with enzyme renders component tree correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <EmailForm />,
@@ -379,7 +379,7 @@ ShallowWrapper {
 }
 `;
 
-exports[`EmailForm renders component tree correctly (without enzyme) 1`] = `
+exports[`EmailForm without enzyme renders component tree correctly 1`] = `
 <form
   className="email__form"
 >
