@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import EmailForm from './EmailForm';
+import EmailForm from './modules/Email/EmailForm';
 
 import './App.css';
 

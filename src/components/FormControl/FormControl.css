@@ -1,0 +1,31 @@
+.form__control {
+  margin-bottom: 12px;
+}
+
+label {	
+  color: #61dafb;
+  display: block;
+  font-size: calc(10px + 1vmin);
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+input, textarea {
+  padding: 12px;
+  width: 220px;
+}
+
+input {
+  max-height: 35px;
+}
+
+button, input, textarea {
+  border-color: transparent;
+  border-radius: 6px;
+  border-width: 0;
+}
