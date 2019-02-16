@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailForm renders component tree correctly (with enzyme) 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EmailForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <FormControl
+          autoComplete="off"
+          id="from"
+          labelText="From:"
+          name="from"
+          onChange={[Function]}
+          value=""
+        />,
+        <FormControl
+          autoComplete="off"
+          id="to"
+          labelText="To:"
+          name="to"
+          onChange={[Function]}
+          value=""
+        />,
+        <FormControl
+          autoComplete="off"
+          id="subject"
+          labelText="Subject:"
+          name="subject"
+          onChange={[Function]}
+          value=""
+        />,
+        <FormControl
+          autoComplete="off"
+          id="message"
+          labelText="Message:"
+          name="message"
+          onChange={[Function]}
+          textarea={true}
+          value=""
+        />,
+        <div
+          className="form__actions"
+        >
+          <button
+            className="button__icon"
+            onClick={[Function]}
+            type="submit"
+          >
+            Send
+            <ReactComponent />
+          </button>
+        </div>,
+      ],
+      "className": "email__form",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoComplete": "off",
+          "id": "from",
+          "labelText": "From:",
+          "name": "from",
+          "onChange": [Function],
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoComplete": "off",
+          "id": "to",
+          "labelText": "To:",
+          "name": "to",
+          "onChange": [Function],
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoComplete": "off",
+          "id": "subject",
+          "labelText": "Subject:",
+          "name": "subject",
+          "onChange": [Function],
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoComplete": "off",
+          "id": "message",
+          "labelText": "Message:",
+          "name": "message",
+          "onChange": [Function],
+          "textarea": true,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            className="button__icon"
+            onClick={[Function]}
+            type="submit"
+          >
+            Send
+            <ReactComponent />
+          </button>,
+          "className": "form__actions",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Send",
+              <ReactComponent />,
+            ],
+            "className": "button__icon",
+            "onClick": [Function],
+            "type": "submit",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Send",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "button",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "form",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <FormControl
+            autoComplete="off"
+            id="from"
+            labelText="From:"
+            name="from"
+            onChange={[Function]}
+            value=""
+          />,
+          <FormControl
+            autoComplete="off"
+            id="to"
+            labelText="To:"
+            name="to"
+            onChange={[Function]}
+            value=""
+          />,
+          <FormControl
+            autoComplete="off"
+            id="subject"
+            labelText="Subject:"
+            name="subject"
+            onChange={[Function]}
+            value=""
+          />,
+          <FormControl
+            autoComplete="off"
+            id="message"
+            labelText="Message:"
+            name="message"
+            onChange={[Function]}
+            textarea={true}
+            value=""
+          />,
+          <div
+            className="form__actions"
+          >
+            <button
+              className="button__icon"
+              onClick={[Function]}
+              type="submit"
+            >
+              Send
+              <ReactComponent />
+            </button>
+          </div>,
+        ],
+        "className": "email__form",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoComplete": "off",
+            "id": "from",
+            "labelText": "From:",
+            "name": "from",
+            "onChange": [Function],
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoComplete": "off",
+            "id": "to",
+            "labelText": "To:",
+            "name": "to",
+            "onChange": [Function],
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoComplete": "off",
+            "id": "subject",
+            "labelText": "Subject:",
+            "name": "subject",
+            "onChange": [Function],
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoComplete": "off",
+            "id": "message",
+            "labelText": "Message:",
+            "name": "message",
+            "onChange": [Function],
+            "textarea": true,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="button__icon"
+              onClick={[Function]}
+              type="submit"
+            >
+              Send
+              <ReactComponent />
+            </button>,
+            "className": "form__actions",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Send",
+                <ReactComponent />,
+              ],
+              "className": "button__icon",
+              "onClick": [Function],
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Send",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "button",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "form",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`EmailForm renders component tree correctly (without enzyme) 1`] = `
+<form
+  className="email__form"
+>
+  <div
+    className="form__control"
+  >
+    <label
+      htmlFor="from"
+    >
+      From:
+    </label>
+    <input
+      autoComplete="off"
+      id="from"
+      name="from"
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="form__control"
+  >
+    <label
+      htmlFor="to"
+    >
+      To:
+    </label>
+    <input
+      autoComplete="off"
+      id="to"
+      name="to"
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="form__control"
+  >
+    <label
+      htmlFor="subject"
+    >
+      Subject:
+    </label>
+    <input
+      autoComplete="off"
+      id="subject"
+      name="subject"
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="form__control"
+  >
+    <label
+      htmlFor="message"
+    >
+      Message:
+    </label>
+    <textarea
+      autoComplete="off"
+      id="message"
+      name="message"
+      onChange={[Function]}
+      value=""
+    />
+  </div>
+  <div
+    className="form__actions"
+  >
+    <button
+      className="button__icon"
+      onClick={[Function]}
+      type="submit"
+    >
+      Send
+      <svg>
+        paper-plane-solid.svg
+      </svg>
+    </button>
+  </div>
+</form>
+`;

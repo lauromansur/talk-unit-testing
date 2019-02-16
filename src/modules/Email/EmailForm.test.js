@@ -1,10 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 
 import EmailForm from './EmailForm';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<EmailForm />, div);
-  ReactDOM.unmountComponentAtNode(div);
+describe('EmailForm', () => {
+  test('renders component tree correctly (without enzyme)', () => {
+    const tree = renderer
+    .create(<EmailForm />)
+    .toJSON();
+
+    expect(tree).toMatchSnapshot();
+  });
+
+  test('renders component tree correctly (with enzyme)', () => {
+    const tree = shallow(<EmailForm />);
+
+    expect(tree).toMatchSnapshot();
+  });
 });
