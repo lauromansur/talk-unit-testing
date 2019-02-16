@@ -1,3 +1,63 @@
-.email-form {
-  text-align: center;
+.email__form {
+  background-color: rgba(255, 255, 255, .1);
+  padding: 24px;
+}
+
+.form__control {
+  margin-bottom: 12px;
+}
+
+label {	
+  color: #61dafb;
+  display: block;
+  font-size: calc(10px + 1vmin);
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+button {
+  background-color: #61dafb;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px 24px;
+  text-transform: uppercase;
+}
+
+textarea {
+  height: 50px;
+  max-height: 300px;
+  resize: vertical;
+}
+
+input, textarea {
+  padding: 12px;
+  width: 220px;
+}
+
+input {
+  max-height: 35px;
+}
+
+button, input, textarea {
+  border-color: transparent;
+  border-radius: 6px;
+  border-width: 0;
+}
+
+.form__actions {
+  justify-content: center;
+  display: flex;
+}
+
+.button__icon {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+svg {
+  height: 18px;
+  margin-left: 6px;
+  width: 18px;
 }
